@@ -1,0 +1,19 @@
+{
+  "name": "turfgame-api",
+  "version": "0.1.0",
+  "description": "Node module to access [Turf API](api.turfgame.com).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chrisjons/turfgame-api.git"
+  },
+  "author": "Christian Jönsson <christian.cj.jonsson@gmail.com> (https://github.com/chrisjons)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chrisjons/turfgame-api/issues"
+  },
+  "homepage": "https://github.com/chrisjons/turfgame-api#readme"
+}
