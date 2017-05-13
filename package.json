@@ -4,7 +4,8 @@
   "description": "Node module to access [Turf API](api.turfgame.com).",
   "main": "index.js",
   "scripts": {
-    "test": "mocha lib/**/**.spec.js"
+    "test": "mocha lib/**/**.spec.js",
+    "lint": "jshint --exclude **/*.spec.js **/*.js"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,7 @@
   "homepage": "https://github.com/chrisjons/turfgame-api#readme",
   "devDependencies": {
     "chai": "^3.5.0",
+    "jshint": "^2.9.4",
     "mocha": "^3.3.0",
     "nock": "^9.0.13",
     "sinon": "^2.2.0",
