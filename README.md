@@ -1,9 +1,27 @@
-# turfgame-api
+turfgame-api
+============
 Node module to access [Turf API](api.turfgame.com).
 
-## Inspiration
-* https://github.com/TheThingSystem/node-telldus-live
+Installation
+------------
+```shell
+npm install https://github.com/chrisjons/turfgame-api --save
+```
 
-### TODO
-* https://github.com/stormpath/stormpath-sdk-node
-* https://stormpath.com/blog/build-a-killer-node-dot-js-client-for-your-rest-plus-json-api
+Usage
+-----
+```javascript
+var TurfAPI = require('turfgame-api');
+var turf = new TurfAPI();
+
+turf.getStatistics(function(err, data) {
+  if (err) {
+    throw new Error("Failed to get statistics: " + err);
+  }
+  console.log("Got statistics: ", data);
+});
+```
+
+Inspiration
+-----------
+* https://github.com/TheThingSystem/node-telldus-live
