@@ -1,6 +1,10 @@
 turfgame-api
 ============
+[![Build Status][travis-image]][travis-url] [![NPM version][npm-image]][npm-url] [![Downloads][downloads-image]][npm-url]
+
 Node module to access [Turf API](api.turfgame.com).
+
+Implemented as an exercise in NodeJS coding. Review and feedback highly appreciated!
 
 Installation
 ------------
@@ -25,9 +29,15 @@ turf.getStatistics(function(err, data) {
 Debug
 -----
 ```shell
-DEBUG=turfgame-api node app.js
+DEBUG=turfgame-api node your-app.js
 ```
 
 Inspiration
 -----------
 * https://github.com/TheThingSystem/node-telldus-live
+
+[npm-url]: https://npmjs.org/package/turfgame-api
+[downloads-image]: http://img.shields.io/npm/dm/turfgame-api.svg
+[npm-image]: http://img.shields.io/npm/v/turfgame-api.svg
+[travis-url]: https://travis-ci.org/chrisjons/turfgame-api
+[travis-image]: http://img.shields.io/travis/chrisjons/turfgame-api.svg
