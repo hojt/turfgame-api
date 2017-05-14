@@ -9,7 +9,7 @@ Implemented as an exercise in NodeJS coding. Review and feedback highly apprecia
 Installation
 ------------
 ```shell
-npm install https://github.com/chrisjons/turfgame-api --save
+npm install https://github.com/hojt/turfgame-api --save
 ```
 
 Usage
@@ -39,5 +39,5 @@ Inspiration
 [npm-url]: https://npmjs.org/package/turfgame-api
 [downloads-image]: http://img.shields.io/npm/dm/turfgame-api.svg
 [npm-image]: http://img.shields.io/npm/v/turfgame-api.svg
-[travis-url]: https://travis-ci.org/chrisjons/turfgame-api
-[travis-image]: http://img.shields.io/travis/chrisjons/turfgame-api.svg
+[travis-url]: https://travis-ci.org/hojt/turfgame-api
+[travis-image]: http://img.shields.io/travis/hojt/turfgame-api.svg
