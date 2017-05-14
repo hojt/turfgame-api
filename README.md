@@ -22,6 +22,12 @@ turf.getStatistics(function(err, data) {
 });
 ```
 
+Debug
+-----
+```shell
+DEBUG=turfgame-api node app.js
+```
+
 Inspiration
 -----------
 * https://github.com/TheThingSystem/node-telldus-live
