@@ -39,5 +39,5 @@ Inspiration
 [npm-url]: https://npmjs.org/package/turfgame-api
 [downloads-image]: http://img.shields.io/npm/dm/turfgame-api.svg
 [npm-image]: http://img.shields.io/npm/v/turfgame-api.svg
-[travis-url]: https://travis-ci.org/hojt/turfgame-api
-[travis-image]: http://img.shields.io/travis/hojt/turfgame-api.svg
+[travis-url]: https://travis-ci.org/hojt/turfgame-api?branch=master
+[travis-image]: https://travis-ci.org/hojt/turfgame-api.svg?branch=master
