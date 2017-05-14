@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/chrisjons/turfgame-api.git"
+    "url": "git+https://github.com/hojt/turfgame-api.git"
   },
-  "author": "Christian Jönsson <christian.cj.jonsson@gmail.com> (https://github.com/chrisjons)",
+  "author": "Christian Jönsson <christian.cj.jonsson@gmail.com> (https://github.com/hojt)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/chrisjons/turfgame-api/issues"
+    "url": "https://github.com/hojt/turfgame-api/issues"
   },
-  "homepage": "https://github.com/chrisjons/turfgame-api#readme",
+  "homepage": "https://github.com/hojt/turfgame-api#readme",
   "devDependencies": {
     "chai": "^3.5.0",
     "jshint": "^2.9.4",
