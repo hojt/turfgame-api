@@ -4,8 +4,9 @@
   "description": "Node module to access [Turf API](api.turfgame.com).",
   "main": "index.js",
   "scripts": {
-    "test": "mocha lib/**/**.spec.js",
-    "lint": "jshint --exclude **/*.spec.js **/*.js"
+    "jshint": "jshint **/*.js",
+    "mocha": "mocha **/**.spec.js",
+    "test": "npm run jshint && npm run mocha"
   },
   "repository": {
     "type": "git",
