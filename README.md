@@ -2,7 +2,7 @@ turfgame-api
 ============
 [![Build Status][travis-image]][travis-url] [![NPM version][npm-image]][npm-url] [![Downloads][downloads-image]][npm-url]
 
-Node module to access [Turf API](api.turfgame.com).
+Node module to access [Turf API](http://api.turfgame.com).
 
 Implemented as an exercise in NodeJS coding. Review and feedback highly appreciated!
 
